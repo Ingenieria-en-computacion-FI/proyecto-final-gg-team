@@ -1,0 +1,12 @@
+SECTION .text
+INICIO:
+    PUSH EBP
+    MOV EBP, ESP
+    INC EAX
+    DEC EBX
+    CALL MIBUCLE
+    POP EBP
+    RET
+MIBUCLE:
+    NOP
+    JMP INICIO

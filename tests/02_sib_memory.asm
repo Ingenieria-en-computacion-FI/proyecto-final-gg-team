@@ -1,0 +1,3 @@
+SECTION .text
+    MOV EAX, [EBX+ECX*4+8]
+    ADD EDX, [ESI+EDI*2]

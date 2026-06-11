@@ -1,0 +1,7 @@
+SECTION .text
+    MOV EAX, EBX
+    ADD ECX, EDX
+    INC ESI
+    DEC EDI
+    PUSH EBP
+    POP EAX

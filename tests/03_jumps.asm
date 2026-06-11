@@ -1,0 +1,7 @@
+SECTION .text
+INICIO:
+    JMP FINAL
+    NOP
+    NOP
+FINAL:
+    JMP INICIO
